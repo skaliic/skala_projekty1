@@ -1,10 +1,9 @@
-﻿namespace Mini_Projekt
+﻿using system;
+
+class Program
 {
-    internal class Program
+    static void main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+        string[] moznosti = { "kámen", "nůžky", "papír" };
+        Random rnd = new Random();
 }
