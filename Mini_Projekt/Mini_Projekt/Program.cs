@@ -1,6 +1,4 @@
-﻿using system;
-
-using System;
+﻿using System;
 
 class Program
 {
@@ -30,8 +28,9 @@ class Program
             Console.WriteLine("Prohrál jsi!");
         }
 
-        Console.WriteLine("Stiskni libovolnou klávesu proghg ukončení...");
+        Console.WriteLine("Stiskni libovolnou klávesu pro ukončení...");
         Console.ReadKey();
     }
 }
+
 
